@@ -1,10 +1,10 @@
 # template-single-page-webpack-vue
 
-English | [中文文档](README_zh.md)
+[English](README.md) | 中文文档
 
-Single page Vue project template based on webpack
+基于webpack 的单页vue项目模板
 
-## Directory structure
+## 目录结构
 ```
 |-- single-page-webpack-vue 项目名称
     |-- build               构建打包配置
@@ -34,4 +34,3 @@ Single page Vue project template based on webpack
     |-- .postcss.config.js  postcss配置文件
     |-- README.md           README
 ```
-

@@ -1,0 +1,6 @@
+/*
+ * @Description: babel配置
+ */
+{
+  "presets": ["@babel/preset-env"]
+}
