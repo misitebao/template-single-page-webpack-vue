@@ -1,6 +1,8 @@
 /*
- * @Description: 开发环境
- */
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 开发环境
+ */ 
 const path = require('path');
 const webpackMerge = require('webpack-merge');
 const baseConfig = require('./webpack.base.config.js');

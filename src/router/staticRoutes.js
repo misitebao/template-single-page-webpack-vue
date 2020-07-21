@@ -1,6 +1,8 @@
 /*
- * @Description: 静态路由
- */
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 静态路由
+ */ 
 
 import Index from '../views/Index.vue';
 

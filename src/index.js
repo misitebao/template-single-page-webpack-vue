@@ -1,7 +1,7 @@
 /*
  * @Author       : MS
  * @LastEditors  : MS
- * @Description  : 请添加文档头注释
+ * @Description  : 打包入口
  */ 
 
 import Vue from 'vue';

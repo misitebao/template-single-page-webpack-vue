@@ -1,5 +1,7 @@
 /*
- * @Description: 封装http请求库
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 封装http请求库
  */ 
 
 import axios from 'axios'

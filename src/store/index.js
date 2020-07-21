@@ -1,6 +1,8 @@
 /*
- * @Description: 全局store
- */
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 全局store
+ */ 
 
 import Vue from 'vue'
 import Vuex from 'vuex'
