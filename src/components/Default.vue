@@ -1,6 +1,8 @@
 <!--
- * @Description: 默认示例组件
--->
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 默认示例组件
+--> 
 <template>
   <div class="default">
     <h1>我是默认组件</h1>

@@ -1,5 +1,17 @@
 # template-single-page-webpack-vue
 
+<p align="center">
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/repo-size/misitebao/template-single-page-webpack-vue?style=for-the-badge" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/v/release/misitebao/template-single-page-webpack-vue?style=for-the-badge" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/license/misitebao/template-single-page-webpack-vue?style=for-the-badge" alt="version"/>
+    </a>
+</p>
+
 English | [中文文档](README_zh.md)
 
 Single page Vue project template based on webpack

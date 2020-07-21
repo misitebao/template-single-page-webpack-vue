@@ -1,6 +1,8 @@
 /*
- * @Description: 生产环境配置
- */
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 生产环境配置
+ */ 
 
 const webpackMerge = require('webpack-merge');
 const baseConfig = require('./webpack.base.config.js');

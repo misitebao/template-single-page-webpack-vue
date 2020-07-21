@@ -1,6 +1,8 @@
 <!--
- * @Description: 首页
- -->
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 首页
+--> 
 
 <template>
   <div class="index">

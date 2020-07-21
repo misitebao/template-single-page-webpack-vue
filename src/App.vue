@@ -1,6 +1,8 @@
 <!--
- * @Description: 根组件
- -->
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 根组件
+--> 
 
 <template>
   <div id="app">

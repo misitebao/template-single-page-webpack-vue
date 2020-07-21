@@ -1,6 +1,7 @@
 /*
- * @LastEditors: misitebao
- * @Description: 英文
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 英文
  */ 
 
 const en_US = {

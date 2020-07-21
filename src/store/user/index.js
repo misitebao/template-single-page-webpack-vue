@@ -1,7 +1,8 @@
 /*
- * @Description: 用户store
- */
-
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 用户store
+ */ 
 // 定义用户store
 const userStore = {
     namespaced: true, // 添加命名空间

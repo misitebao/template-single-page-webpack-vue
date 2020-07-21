@@ -1,6 +1,8 @@
 /*
- * @Description: i18n配置
- */
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : i18n配置
+ */ 
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 

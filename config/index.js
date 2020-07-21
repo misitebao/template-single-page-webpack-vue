@@ -1,15 +1,17 @@
 /*
- * @Description: 多环境配置
- */
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 多环境配置
+ */ 
 
 module.exports = {
   dev: {
-    BasePath: 'devdev',
+    BasePath: 'dev.com',
   },
   test: {
-    BasePath: 'testtest',
+    BasePath: 'test.com',
   },
   prod: {
-    BasePath: 'prodprod',
+    BasePath: 'prod.com',
   },
 };

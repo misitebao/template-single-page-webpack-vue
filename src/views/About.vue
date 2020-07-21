@@ -1,6 +1,8 @@
 <!--
- * @Description: 关于页面
- -->
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 关于页面
+--> 
 <template>
   <div class="about">
     <!-- 容器 -->

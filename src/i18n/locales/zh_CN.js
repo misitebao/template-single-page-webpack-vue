@@ -1,6 +1,7 @@
 /*
- * @LastEditors: misitebao
- * @Description: 中文
+ * @Author       : MS
+ * @LastEditors  : MS
+ * @Description  : 中文
  */ 
 const zh_CN = {
     name: "名称"
