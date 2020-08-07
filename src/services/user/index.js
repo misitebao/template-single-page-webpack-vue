@@ -5,7 +5,7 @@
  */ 
 
 
-import httpclient from '../../utils/HttpClient.js'
+import httpclient from '@/utils/HttpClient.js'
 
 //  定义用户服务
 const userService = {

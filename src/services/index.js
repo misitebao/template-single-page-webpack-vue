@@ -4,7 +4,7 @@
  * @Description  : 公共服务
  */ 
 
-import httpclient from '../utils/HttpClient.js'
+import httpclient from '@/utils/HttpClient.js'
 
 // 为了保证文件的干净整洁，在这里统一定义服务函数格式
 
