@@ -1,7 +1,6 @@
 {
-  "name": "single-page-webpack-vue",
+  "name": "template-single-page-webpack-vue",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "serve:help": "vue-cli-service serve -h",
     "build:help": "vue-cli-service build -h",
