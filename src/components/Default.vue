@@ -1,8 +1,10 @@
 <!--
  * @Author       : MS
  * @LastEditors  : MS
- * @Description  : 默认示例组件
---> 
+ * @Description  : 默认组件示例 
+-->
+
+
 <template>
   <div class="default">
     <h1>我是默认组件</h1>
@@ -11,7 +13,7 @@
 
 <script>
 export default {
-  name: 'Default',
+  name: "Default",
   mixin: [],
   components: {},
   props: {},

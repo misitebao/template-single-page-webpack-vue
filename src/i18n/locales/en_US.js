@@ -1,10 +1,4 @@
-/*
- * @Author       : MS
- * @LastEditors  : MS
- * @Description  : 英文
- */ 
+const en = {
 
-const en_US = {
-    name: "name"
 }
-export default en_US
+export default en

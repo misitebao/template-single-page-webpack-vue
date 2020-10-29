@@ -1,46 +1,49 @@
 /*
  * @Author       : MS
  * @LastEditors  : MS
- * @Description  : 路由
- */ 
+ * @Description  : 动态路由
+ */
 
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import staticRoutes from './staticRoutes.js';
 
-Vue.use(VueRouter);
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import staticRoutes from './staticRoutes.js'
+
+Vue.use(VueRouter)
+
 
 // 动态路由
-const dynamicRoutes = [];
+var dynamicRoutes = []
 
 // 模拟动态路由数据
-const rou = [{
-  path: 'zhangsan',
-  componentName: 'zhangsan',
-}, {
-  path: 'lisi',
-  componentName: 'lisi',
-}, {
-  path: 'wangwu',
-  componentName: 'wangwu',
-}];
+var routeList = [{
+    path: 'tom',
+    componentName: 'Tom'
+}]
 
-// 遍历生成路由
-for (let i = 0; i < 3; i++) {
-  dynamicRoutes.push({
-    path: `/${rou[i].path}`,
-    name: rou[i].path,
-    component: () => import(/* webpackChunkName: "[request]Router" */ `../views/${rou[i].componentName}.vue`),
-  });
+for (let i = 0, len = routeList.length; i < len; i++) {
+    dynamicRoutes.push({
+        path: `/${routeList[i].path}`,
+        name: routeList[i].path,
+        // 路由懒加载
+        // 路由级别代码分割
+        // 动态设置路由变量[request]
+        component: () => import(/* webpackChunkName: "[request]Router" */ `../views/${routeList[i].componentName}.vue`)
+    })
+
 }
 
+
+
 // 生成最终路由规则
-const routes = dynamicRoutes.concat(staticRoutes);
+const routes = dynamicRoutes.concat(staticRoutes)
 
 // 生成路由对象
 const router = new VueRouter({
-  mode: 'hash', // 设置为hash模式
-  routes,
-});
+    mode: 'hash', // 设置为hash模式
+    routes
+})
 
-export default router;
+export default router
+
+

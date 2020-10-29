@@ -1,22 +1,18 @@
 /*
- * @Author       : MS
- * @LastEditors  : MS
- * @Description  : i18n配置
- */ 
+ * @LastEditTime : 2020-10-28 14:04:33
+ * @Description: 国际化语言
+ */
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
+import store from '@/store/index.js'
 
-import en_US from './locales/en_US.js'
-import zh_CN from './locales/zh_CN.js'
+import messages from './locales/index.js'
 
 Vue.use(VueI18n)
 
 const i18n = new VueI18n({
-    locale: 'zh_CN', // 设置默认为中文
-    messages: {
-        en_US,
-        zh_CN
-    }
+  locale: store.state.language || 'zh_CN',
+  messages
 })
 
-export default i18n;
+export default i18n
